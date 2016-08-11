@@ -4,7 +4,8 @@
 	"description": "An easy solution for Authenticating using a Tuft's University UTLN and password",
 	
 	"dependencies": {	
-		"ldapjs": "latest",	
+		"ldapjs": "latest"
 	},
-		
+	
+	"license": "MIT"
 }

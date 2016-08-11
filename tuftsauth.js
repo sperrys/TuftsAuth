@@ -1,10 +1,11 @@
 
+var ldap = require('ldapjs');
+var base = "ou=people,dc=tufts,dc=edu";
+
+
 module.exports = function(tuftsauth) { 
 
-	var ldap = require('ldapjs');
-	var base = "ou=people,dc=tufts,dc=edu";
-
-	this.tuftsauth = function(login, password) {
+	this.auth = function(login, password) {
 	
     	var filter = "uid="+login; 
     	var success = false;
