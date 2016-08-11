@@ -1,0 +1,10 @@
+{
+	"name": "TuftsAuth",
+	"version": "1.0.1",
+	"description": "An easy solution for Authenticating using a Tuft's University UTLN and password",
+	
+	"dependencies": {	
+		"ldapjs": "latest",	
+	},
+		
+}
